@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Images</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <div class="wrapper">
+       <header class="banner">
+           <h1>Responsive Images</h1>
+       </header>
+       <main class="main">
+           <ul class="col first one">
+               <li>
+                   <picture>
+                       <source srcset="img/fahim-akhter-kund-malir-pakistan-small.jpg 1.5x" media="(max-width: 700px)" />
+                       <source srcset="img/fahim-akhter-kund-malir-pakistan-medium.jpg 1.5x" media="(min-width: 700px)and (max-width: 1500px)" />
+                       <source srcset="img/fahim-akhter-kund-malir-pakistan-large.jpg 2x" media="(min-width: 1500px)" />
+                       <img src="img/fahim-akhter-kund-malir-pakistan-medium.jpg" alt="description" />
+                   </picture>
+               </li>
+               <li>
+                   <picture>
+                       <source srcset="img/markus-spiske-carrots-small.jpg 1.5x" media="(max-width: 700px)" />
+                       <source srcset="img/markus-spiske-carrots-medium.jpg 1.5x" media="(min-width: 700px)and (max-width: 1500px)" />
+                       <source srcset="img/markus-spiske-carrots-large.jpg 2x" media="(min-width: 1500px)" />
+                       <img src="img/markus-spiske-carrots-medium.jpg" alt="description" />
+                   </picture>
+               </li>
+           </ul>
+           <ul class="col first two">
+               <li>
+                   <picture>
+                       <source srcset="img/markus-spiske-concert-crowd-small.jpg 1.5x" media="(max-width: 700px)" />
+                       <source srcset="img/markus-spiske-concert-crowd-medium.jpg 1.5x" media="(min-width: 700px)and (max-width: 1500px)" />
+                       <source srcset="img/markus-spiske-concert-crowd-large.jpg 2x" media="(min-width: 1500px)" />
+                       <img src="img/markus-spiske-concert-crowd-medium.jpg" alt="description" />
+                   </picture>
+               </li>
+               <li>
+                   <picture>
+                       <source srcset="img/markus-spiske-guitar-small.jpg 1.5x" media="(max-width: 700px)" />
+                       <source srcset="img/markus-spiske-guitar-medium.jpg 1.5x" media="(min-width: 700px)and (max-width: 1500px)" />
+                       <source srcset="img/markus-spiske-guitar-large.jpg 2x" media="(min-width: 1500px)" />
+                       <img src="img/markus-spiske-guitar-medium.jpg" alt="description" />
+                   </picture>
+               </li>
+           </ul>
+           <ul class="col second three">
+               <li>
+                   <picture>
+                       <source srcset="img/markus-spiske-stage-small.jpg 1.5x" media="(max-width: 700px)" />
+                       <source srcset="img/markus-spiske-stage-medium.jpg 1.5x" media="(min-width: 700px)and (max-width: 1500px)" />
+                       <source srcset="img/markus-spiske-stage-large.jpg 2x" media="(min-width: 1500px)" />
+                       <img src="img/markus-spiske-stage-medium.jpg" alt="description" />
+                   </picture>
+               </li>
+               <li>
+                   <picture>
+                       <source srcset="img/yiman-chen-castlerock-wisconsin-small.jpg 1.5x" media="(max-width: 700px)" />
+                       <source srcset="img/yiman-chen-castlerock-wisconsin-medium.jpg 1.5x" media="(min-width: 700px)and (max-width: 1500px)" />
+                       <source srcset="img/yiman-chen-castlerock-wisconsin-large.jpg 2x" media="(min-width: 1500px)" />
+                       <img src="img/yiman-chen-castlerock-wisconsin-medium.jpg" alt="description" />
+                   </picture>
+               </li>
+           </ul>
+           <ul class="col second four">
+               <li>
+                   <picture>
+                       <source srcset="img/yiman-chen-gibraltar-rock-wisconsin-small.jpg 1.5x" media="(max-width: 700px)" />
+                       <source srcset="img/yiman-chen-gibraltar-rock-wisconsin-medium.jpg 1.5x" media="(min-width: 700px)and (max-width: 1500px)" />
+                       <source srcset="img/yiman-chen-gibraltar-rock-wisconsin-large.jpg 2x" media="(min-width: 1500px)" />
+                       <img src="img/yiman-chen-gibraltar-rock-wisconsin-medium.jpg" alt="description" />
+                   </picture>
+               </li>
+           </ul>
+       </main>
+       <footer><p>&copy; Chao Wang</p></footer>       
+    </div>
+</body>
+</html>
